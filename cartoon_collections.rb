@@ -9,7 +9,7 @@ end
 def summon_captain_planet(arr)# code an argument here
   # Your code here
   arr.collect{ |i|
-      i.upcase + "!"
+      i.capitalize + "!"
   }
 end
 
