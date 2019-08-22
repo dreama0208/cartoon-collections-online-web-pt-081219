@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   dwarves.each.with_index(1) { |name, index|
